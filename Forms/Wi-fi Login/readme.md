@@ -1,5 +1,5 @@
 # QR Code Generator for Wi-Fi Login
-![alt text]()
+![alt text](https://github.com/rahulrai19/Snippets/blob/main/Forms/Wi-fi%20Login/Snip.png)
 ## Explanation:
 - HTML: The oninput event in the input fields calls generateQRCode() every time the input changes.
 
