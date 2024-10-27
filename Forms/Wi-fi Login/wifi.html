@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiFi QR Generator</title>
+    <link rel="stylesheet" href="wifi.css">
+</head>
+<body>
+    <div class="container">
+        <h1>WiFi Login</h1>
+        <div id="qrcode"></div>
+        <form id="wifiForm">
+            <label for="networkName">Network Name</label>
+            <input type="text" id="networkName" name="networkName" placeholder="WiFi network name" oninput="generateQRCode()">
+            <label for="password">Password</label>
+            <input type="text" id="password" name="password" placeholder="Password" oninput="generateQRCode()">
+        </form>
+        <p>📸 Point your phone's camera at the QR code to connect to WiFi</p>
+        <button onclick="window.print()">Print WiFi Card</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="wifi.js"></script>
+</body>
+</html>
