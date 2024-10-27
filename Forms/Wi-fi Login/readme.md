@@ -1,4 +1,5 @@
 # QR Code Generator for Wi-Fi Login
+![alt text]()
 ## Explanation:
 - HTML: The oninput event in the input fields calls generateQRCode() every time the input changes.
 
