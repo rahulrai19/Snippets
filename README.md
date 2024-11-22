@@ -66,7 +66,7 @@ git push origin feature/YourFeatureName
 ```
 5. Open a Pull Request:
 ## 📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the GPL 2.0 License - see the LICENSE file for details.
 
 ## Happy Beuty Tech🚀✨
 
